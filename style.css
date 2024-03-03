@@ -1,0 +1,93 @@
+*{
+    color: rgb(45, 33, 117);
+    background-color: pink;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.fullContainer{
+    height: 100lvh;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.halfContainer{
+    color: white;
+    height: 30rem;
+    width: 40%;
+    border: 5px solid white;
+    background-color: pink;
+    border-radius: 10px;
+}
+.elementContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7rem;
+   
+    
+    background-color: pink;
+}
+.element{
+ border: 3px solid white;
+ border-radius: 5px;
+ height: 2rem;
+ width: 5rem;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ font-family: monospace;
+ font-size: 1.3rem;
+ font-weight: 900;
+ cursor:grab;
+}
+.gameResult{
+    margin-left:5rem ;
+}
+.for{
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 900;
+    color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+}
+@media screen and (min-width: 600px) and (max-width: 1050px) {
+    .halfContainer{
+width: 90%;
+
+
+
+    }
+    .gameResultContainer{
+        display: flex;
+        justify-content: center;
+        
+    }.gameResult{
+        margin-left: -30%;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 600px) {
+    .halfContainer{
+        width: 90%;
+        
+        
+        
+            }
+   .for{
+    font-size: 1rem;
+   }
+   .gameText{
+    font-size: 1rem;
+   }    .gameResultContainer{
+    display: flex;
+    justify-content: baseline;
+    
+}.gameResult{
+    margin-left:5%;
+}
+ 
+}
